@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Survey form </title>
+</head>
+
+<body>
+    <form id="survey-form" action="">
+        <h1 id="title"> Technology for parents </h1>
+        <p id="description"> Thanks for fill this survey for us. This data will be use to improve e-learning in the
+            schools </p>
+        <label id="name-label" for="name"> Enter your name <br>
+            <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Enter your email <br>
+            <input id="email" type="email" placeholder="Enter your email" required> </label>
+        <label id="number-label" for="number"> Enter your age <br>
+            <input type="number" id="number" placeholder="Enter your age" min="0" max="99" required></label>
+        <label class="labelStyle"> Do you have children? </label>
+        <fieldset>
+            <label class="labelStylewB"><input type="radio" value="One" name="A"> Yes </label>
+            <label class="labelStylewB"><input type="radio" value="Two" name="A"> No </label>
+        </fieldset>
+        <label class="labelStyle"> Boys? Girls? Both? </label>
+        <fieldset>
+            <label class="labelStylewB"><input type="radio" value="Three" name="B"> Boys</label>
+            <label class="labelStylewB"><input type="radio" value="Four" name="B"> Girls </label>
+            <label class="labelStylewB"><input type="radio" value="Four" name="B"> Both </label>
+        </fieldset>
+        <label class="labelStyle"> How many children do you have? </label>
+        <select id="dropdown">
+            <option> 1 </option>
+            <option> 2 </option>
+            <option> 3 </option>
+            <option> Other </option>
+        </select>
+        <label class="labelStyle"><input type="checkbox" value="first_chbox"> Do you have a computer at home? </label>
+        <label class="labelStyle"><input type="checkbox" value="second_chbox"> Do you have home internet access?
+        </label>
+        <label class="labelStyle"><input type="checkbox" value="third_chbox"> Is your child allowed to use the internet
+            for
+            educational purposes? </label>
+        <label class="labelStyle"><input type="checkbox" value="fourth_chbox"> Do your child have assistance for their
+            homework at
+            home? </label>
+        <label class="labelStyle"><input type="checkbox" value="fifth_chbox"> Do you child know how to used suite office
+            like Word,
+            Excel, Powerpoint...? </label>
+        <label class="labelStyle"><input type="checkbox" value="sixth_chbox"> Do you have correct devices to make
+            videocalls at
+            home? </label>
+        <label class="labelStyle">
+            Questions? Let us know!</label><textarea></textarea>
+        <button id="submit" type="submit"><strong><b>Submit!</b></strong></button>
+    </form>
+</body>
+
+</html>

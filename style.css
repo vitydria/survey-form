@@ -1,0 +1,146 @@
+#title {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#description {
+  font-family: "Libre Franklin", monospace;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+}
+
+#survey-form {
+  height: 1000px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: repeat(20, 80px);
+  border-radius: 1.5%;
+  background-color: rgba(100, 91, 163, 0.712);
+  margin: 125px 150px 0px 150px;
+  padding-bottom: 600px;
+}
+
+#name-label {
+  position: relative;
+  top: 5px;
+  bottom: 5px;
+  font-size: 17px;
+  font-family: "Barlow", Cambria;
+  color: white;
+  align-self: center;
+}
+
+#name {
+  width: 600px;
+  height: 30px;
+  align-self: left;
+  align-self: center;
+}
+
+#email-label {
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-family: "Barlow", Cambria;
+  color: white;
+  align-self: center;
+}
+
+#email {
+  align-self: left;
+  width: 600px;
+  height: 30px;
+  align-self: center;
+}
+
+#number-label {
+  position: relative;
+  bottom: 5px;
+  font-size: 17px;
+  font-family: "Barlow", Cambria;
+  color: white;
+  align-self: center;
+}
+
+#number {
+  align-self: left;
+  width: 600px;
+  height: 30px;
+  align-self: center;
+}
+
+#dropdown {
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  font-size: large;
+  background-color: #48b4d4;
+  line-height: unset;
+  font-family: "Barlow", Cambria;
+  color: white;
+  align-self: center;
+}
+
+#submit {
+  width: 200px;
+  height: 45px;
+  font-size: large;
+  background-color: #48b4d4;
+  line-height: unset;
+  font-family: "Barlow", Cambria;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-self: center;
+  position: relative;
+  top: 15px;
+}
+
+.labelStyle {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", Cambria;
+  background-color: rgb(241, 179, 62);
+  border-radius: 2.5%;
+  padding: 10px;
+  font-weight: 599;
+  width: 600px;
+  height: 45px;
+}
+
+.labelStylewB {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", Cambria;
+  border-radius: 2.5%;
+  font-weight: 599;
+  width: 600px;
+
+  height: 45px;
+}
+
+.chboxStyle {
+  color: ivory;
+}
+
+body {
+  background-color: rgba(6, 97, 136, 0.808);
+  height: 1000px;
+}
+
+fieldset {
+  background-color: rgba(241, 42, 142, 0.692);
+  width: 600px;
+  height: 45px;
+  border: none;
+  padding: none;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+  position: relative;
+  bottom: 5px;
+}
